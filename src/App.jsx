@@ -9,7 +9,7 @@ export default function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}kotoba.xlsx`)
+    fetch(`${import.meta.env.BASE_URL}kotoba_A-Snowy-Exam-Day-in-Tokyo.xlsx`)
       .then((res) => {
         return res.arrayBuffer();
       })

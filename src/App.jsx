@@ -91,7 +91,7 @@ export default function App() {
           }`}
         >
           <div className="absolute w-full h-full backface-hidden bg-white rounded-2xl shadow-lg flex flex-col items-center justify-center">
-            <h1 className="text-2xl font-bold">
+            <h1 className="text-2xl">
               {current.kotoba || "-"}
             </h1>
             <p className="text-gray-500 mt-2">
